@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write  \"**/*.{astro,svelte,vue,js,mjs,cjs,jsx,ts,tsx}\"",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "astro": "^5.4.2"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "^9.21.0",
+    "typescript": "5.8.2"
+  }
+}

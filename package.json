@@ -1,0 +1,37 @@
+{
+  "name": "astro-turbo-boilerplate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{astro,svelte,vue,js,mjs,cjs,jsx,ts,tsx}\"",
+    "check-types": "turbo run check-types",
+    "docs:dev": "turbo run docs#dev",
+    "docs:build": "turbo run docs#build",
+    "docs:lint": "turbo run docs#lint",
+    "web:dev": "turbo run web#dev",
+    "web:build": "turbo run web#build",
+    "web:lint": "turbo run web#lint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ng Chin Kiong (CK)",
+    "url": "https://github.com/ckng"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "0.14.1",
+    "turbo": "^2.4.4",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
