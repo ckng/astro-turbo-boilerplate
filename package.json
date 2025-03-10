@@ -1,5 +1,17 @@
 {
   "name": "astro-turbo-boilerplate",
+  "description": "Astro 5.x + Turborepo boilerplate",
+  "keywords": ["withastro", "turborepo", "astro", "starter", "boilerplate", "template", "starter kit"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckng/astro-turbo-boilerplate"
+  },
+  "author": {
+    "name": "Ng Chin Kiong (CK)",
+    "url": "https://github.com/ckng"
+  },
+  "homepage": "https://github.com/ckng/astro-turbo-boilerplate",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,11 +26,6 @@
     "web:dev": "turbo run web#dev",
     "web:build": "turbo run web#build",
     "web:lint": "turbo run web#lint"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Ng Chin Kiong (CK)",
-    "url": "https://github.com/ckng"
   },
   "workspaces": [
     "packages/*",
